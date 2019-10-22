@@ -1,6 +1,6 @@
 .grid {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 200px;
    /*задает высоту всех колонок сразу*/
     grid-auto-rows: 100px;
     /*!*задает пространство между калонками*!*/
