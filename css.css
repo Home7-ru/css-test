@@ -12,6 +12,9 @@
     /*grid-row-gap:20px;*/
     /*можно заменить*/
     grid-gap:20px;
+
+    grid-auto-flow: column;
+    grid-template-rows: 200px 200px 200px;
 }
 
 .grid div {
