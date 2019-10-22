@@ -9,6 +9,15 @@
     grid-column: 1 /-1;
 }
 
+.grid div:nth-child(2){
+    grid-column: 1;
+    grid-row: 2;
+}
+.grid div:nth-child(2){
+    grid-column: 2 / 4;
+    grid-row: 2;
+}
+
 .grid div {
     background-color: #28314E;
     border: 1px solid #212941;
