@@ -2,7 +2,11 @@
     display: grid;
     grid-template-columns: 200px 200px 200px;
    /*задает высоту всех колонок сразу*/
-    grid-auto-rows: 400px;
+    grid-auto-rows: 100px;
+    /*задает пространство между калонками*/
+    grid-column-gap: 20px;
+    /*задает пространство между рядами*/
+    grid-row-gap:20px;
 }
 
 .grid div {
