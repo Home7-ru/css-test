@@ -1,12 +1,18 @@
-#grid {
+.grid {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2vw;
+   
 }
-#grid > div {
-    font-size: 5vw;
-    padding: .5em;
-    background: gold;
-    text-align: center;
+
+.grid div {
+    background-color: #28314E;
+    border: 1px solid #212941;
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: roboto;
+}
+
+.grid div:nth-child(odd) {
+    background-color: #475477;
 }
