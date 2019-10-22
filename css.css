@@ -1,20 +1,8 @@
 .grid {
     display: grid;
-    /*обозначает что 1 колонка от 150-250, вторая 1fr третья 1fr*/
-    grid-template-columns: minmax(150px, 250px) 1fr 1fr;
-   /*так можно задать высоту мин 100 мах auto
-   auto означает что если в блок будет помещен например большой текст то блок его поместит
-   */
-    grid-auto-rows: minmax(100px, auto);
-    /*!*задает пространство между калонками*!*/
-    /*grid-column-gap: 20px;*/
-    /*!*задает пространство между рядами*!*/
-    /*grid-row-gap:20px;*/
-    /*можно заменить*/
-    grid-gap:20px;
 
-    grid-auto-flow: column;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-gap: 20px;
 }
 
 .grid div {
