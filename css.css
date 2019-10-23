@@ -1,29 +1,18 @@
-*{
-    box-sizing: border-box;
-}
-body{
-    font-size: 1.35em;
-    font-family: 'Nunito',sans-serif;
-    color:#fff;
-    background: #e8e9e9;
-    padding-left: 5%;
-    padding-right: 5;
-}
-h1{
-    color: #555;
-}
-.flex-c{
-    padding: 10px;
-    background: white;
-    border-radius: 5px;
-    margin:45px:auto;
-    box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+.contaner-1{
 
 }
-.flex-e{
-    color: #fff;
-    padding: 15px;
-    margin:5px;
-    background: firebrick;
-    border-radius:3px;
+.contaner-1 div{
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+.box-1{
+
+}
+
+.box-2{
+
+}
+.box-3{
+    
 }
