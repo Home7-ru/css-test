@@ -4,12 +4,13 @@
 
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-between;
+    justify-content: flex-end;
+    height: 300px;
 }
 
 .item{
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
-    width: 300px;
+    width: 100px;
 }
