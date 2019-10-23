@@ -9,15 +9,7 @@
     align-items: start;
 
 }
-.item:nth-child(5){
-    order: 2 ;
-}
-.item:nth-child(4){
-    order: 2 ;
-}
-.item:nth-child(1){
-    order: 3;
-}
+
 
 
 
@@ -25,5 +17,8 @@
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
-    width: 100px;
+    flex-grow: 1;
+}
+.item:nth-child(2){
+    flex-grow: 2;
 }
