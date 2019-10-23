@@ -1,8 +1,15 @@
-.contaner-1, .contaner-2{
-    display: flex;
+/*убираем отступы*/
+*{
+    padding: 0;
+    margin: 0;
+}
+@media(min-width: 500px) {
+    .contaner-1, .contaner-2 {
+        display: flex;
 
-    /*align-items: flex-end;*/
-    flex-direction: row;
+        /*align-items: flex-end;*/
+        flex-direction: row;
+    }
 }
 .contaner-1 div, .contaner-2 div{
     padding: 10px;
