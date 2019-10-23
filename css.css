@@ -1,10 +1,10 @@
-.contaner-1{
+.contaner-1, .contaner-2{
     display: flex;
 
     /*align-items: flex-end;*/
-    flex-direction: column-reverse;
+    flex-direction: row;
 }
-.contaner-1 div{
+.contaner-1 div, .contaner-2 div{
     padding: 10px;
     border: 1px solid silver;
 }
