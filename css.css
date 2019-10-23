@@ -9,12 +9,17 @@
     align-items: start;
 
 }
-.item:nth-child(2){
-    align-self: flex-end;
+.item:nth-child(5){
+    order: 2 ;
 }
 .item:nth-child(4){
-    align-self: flex-end;
+    order: 2 ;
 }
+.item:nth-child(1){
+    order: 3;
+}
+
+
 
 .item{
     padding: 10px;
