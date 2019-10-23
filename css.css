@@ -7,6 +7,7 @@
     justify-content: flex-start;
     height: 500px;
     align-items: end;
+    align-content: space-between;
 }
 
 .item{
