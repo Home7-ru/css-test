@@ -3,9 +3,10 @@
 .flex{
 
     display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-end;
-    height: 300px;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    height: 500px;
+    align-items: end;
 }
 
 .item{
