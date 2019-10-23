@@ -9,6 +9,9 @@
     border: 1px solid silver;
 }
 
+.contaner-2{
+    justify-content: space-around;
+}
 .box-1{
     flex:1;
     order: 2;
@@ -21,4 +24,8 @@
 .box-3{
     flex:1;
     order: 3;
+}
+.box{
+    /*во флексе можно писать так*/
+    flex-basis: 20%;
 }
