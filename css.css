@@ -14,6 +14,7 @@ h1{
 }
 .flex-c{
     display: flex;
+    height: 300px;
     padding: 10px;
     background: white;
     border-radius: 5px;
