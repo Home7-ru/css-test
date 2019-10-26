@@ -17,7 +17,7 @@ h1{
     display: flex;
     /*делает контенеры перенасимыми*/
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-direction: row;
     padding: 10px;
     background: white;
@@ -26,16 +26,10 @@ h1{
     box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
 
 }
-.flex-e:first-child{
-    margin-right:auto
+.element1{
+    order:1;
 }
 
-.flex-e:last-child{
-    margin-left:auto
-}
-.flex-e:nth-child(4){
-    margin:auto
-}
 
 .flex-e{
     color: #fff;
