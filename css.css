@@ -18,7 +18,8 @@ h1{
     /*делает контенеры перенасимыми*/
     flex-wrap: wrap;
     justify-content: flex-start;
-    flex-direction: row;
+    /*даже меняя на с row на column порядок элементов сохранится*/
+    flex-direction: column;
     padding: 10px;
     background: white;
     border-radius: 5px;
@@ -28,6 +29,14 @@ h1{
 }
 .element1{
     order:1;
+}
+
+.element2{
+    order:2;
+}
+
+.element6{
+    order:-1;
 }
 
 
