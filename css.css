@@ -13,8 +13,10 @@ h1{
     color: #555;
 }
 .flex-c{
-    /*теперь сам контенер занимает столько же место сколько блоки*/
-    display: inline-flex;
+
+    display: flex;
+    /*меняем расположение элементов*/
+    flex-direction: row-reverse;
     height: 300px;
     padding: 10px;
     background: white;
