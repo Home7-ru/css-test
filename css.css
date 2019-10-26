@@ -15,8 +15,8 @@ h1{
 .flex-c{
 
     display: flex;
-    /*меняем расположение элементов*/
-    flex-direction: row-reverse;
+    /*меняем расположение элементов на column*/
+    flex-direction: column;
     height: 300px;
     padding: 10px;
     background: white;
