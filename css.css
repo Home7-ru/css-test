@@ -15,9 +15,9 @@ h1{
 .flex-c{
 
     display: flex;
-    /*меняем расположение элементов на column*/
-    flex-direction: column;
-    height: 300px;
+    /*делает контенеры перенасимыми*/
+    flex-wrap: wrap;
+    flex-direction: row;
     padding: 10px;
     background: white;
     border-radius: 5px;
