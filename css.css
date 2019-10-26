@@ -17,7 +17,7 @@ h1{
     display: flex;
     /*делает контенеры перенасимыми*/
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-around;
     flex-direction: row;
     padding: 10px;
     background: white;
