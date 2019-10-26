@@ -27,11 +27,11 @@ h1{
 
 }
 .flex-e:first-child{
-    margin:auto
+    margin-right:auto
 }
 
 .flex-e:last-child{
-    margin:auto
+    margin-left:auto
 }
 .flex-e{
     color: #fff;
