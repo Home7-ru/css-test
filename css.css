@@ -13,6 +13,7 @@ h1{
     color: #555;
 }
 .flex-c{
+    display: flex;
     padding: 10px;
     background: white;
     border-radius: 5px;
