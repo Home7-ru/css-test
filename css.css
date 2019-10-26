@@ -29,6 +29,10 @@ h1{
 .flex-e:first-child{
     margin:auto
 }
+
+.flex-e:last-child{
+    margin:auto
+}
 .flex-e{
     color: #fff;
     padding: 15px;
