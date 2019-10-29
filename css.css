@@ -1,36 +1,30 @@
-body,
-html {
-    width: 100%;
-    height: 100%;
-}
 
-#ob{
-    width:100%;
-    height: 200px;
+#menu {
+    margin: 0; padding: 0; /* Убираем отступы */
 }
-#centr{
-    background: aqua;
+#menu > li {
+    list-style: none; /* Убираем маркеры списка */
+    width: 100px; /* Ширина элемента в пикселах */
+    background: #b3d9d2; /* Цвет фона */
+    color: #333; /* Цвет текста */
+    padding: 5px; /* Поля вокруг текста */
+    font-family: Arial, sans-serif; /* Рубленый шрифт */
+    font-size: 90%; /* Размер шрифта */
+    font-weight: bold; /* Жирное начертание */
+    /*float: left;  Располагаем элементы по горизонтали */
 }
-#centr1{
-    background: red;
+li > ul {
+    list-style: none; /* Убираем маркеры списка */
+    margin: 0; padding: 0; /* Убираем отступы вокруг элементов списка */
+    border-bottom: 1px solid #666; /* Граница внизу */
+    padding-top: 5px; /* Добавляем отступ сверху */
 }
-#column-1 {
-    width: 20%;
-    background: red;
-    float: left;
-    min-height: 100%;
-}
-
-#column-2 {
-    background: green;
-    width: 60%;
-    min-height: 100%;
-    float: left;
-}
-
-#column-3 {
-    width: 20%;
-    min-height: 100%;
-    float: left;
-    background: blue;
+li > a {
+    display: block; /* Ссылки отображаются в виде блока */
+    font-weight: normal; /* Нормальное начертание текста */
+    font-size: 90%; /* Размер шрифта */
+    background: #fff; /* Цвет фона */
+    border: 1px solid #666; /* Параметры рамки */
+    border-bottom: none; /* Убираем границу снизу */
+    padding: 5px; /* Поля вокруг текста */
 }
